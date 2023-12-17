@@ -1,3 +1,0 @@
-SHELL=/bin/bash
-0 18 * * * bash /root/backup.sh 
-10 18 * * * root find /tmp/backup -name '*.gz' -mtime +14 -delete
