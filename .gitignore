@@ -1,0 +1,11 @@
+.env
+*.log
+*.gz
+
+# NGINX config
+*.conf
+
+# Platform config
+*.exs
+
+!rclone.conf
